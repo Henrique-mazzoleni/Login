@@ -1,0 +1,9 @@
+version: "3"
+services:
+  login:
+    image: henriquemazzoleni/login
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app/src/usr
